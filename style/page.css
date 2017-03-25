@@ -1,0 +1,219 @@
+#draggable {
+    position: fixed; 
+    width: 240px; 
+    left: 10px; 
+    top: 106px; 
+    z-index: 2147483646;
+    border:1px solid #555;
+    background-color: #eee;
+    padding:0 0 15px;
+}
+.draggable-title {
+    color: #FFF ;
+    height:30px;
+    background-color: #555;
+    cursor:move;
+    line-height:30px;
+    font-size: 14px;
+    padding-left:15px;
+}
+.draggable-main {
+    margin: 10px;
+}
+.draggable-main p {
+    margin-bottom: 10px;
+}
+.draggable-message {
+    
+}
+#draggable p {
+    text-align: left;
+}
+
+#draggable p button {
+    width: 82px;
+}
+
+#preview {
+    position: fixed; 
+    left: 0px; 
+    bottom: 0px;
+    width: 500px;
+    z-index: 2147483646;
+    border:1px solid #555;
+    background-color: #eee;
+    background-color: #eee;
+}
+#preview .preview-title {
+    color: #FFF ;
+    height:30px;
+    background-color: #555;
+    line-height:30px;
+    font-size: 14px;
+    padding-left:15px;
+}
+#preview .preview-title span{
+    cursor: pointer;
+    margin: 7px 8px;
+}
+#preview  #openBtn {
+    display: none;
+}
+#preview .preview-title .pull-right{
+    
+}
+#preview .preview-title button, .preview-title a {
+    margin-left: 10px;
+}
+#preview .preview-main {
+    height: 110px;
+}
+#preview .xuanpintai {
+    width: 50px;
+    font-size: 20px;
+    font-family: 微软雅黑;
+    font-weight: 500;
+    font-color: #555;
+    word-wrap: break-word;
+    border-right:4px solid #555;
+    padding: 10px 0 10px 12px;
+}
+.xuanpintai, #preview-list, #preview-list ul li {
+    float: left;
+}
+#preview-list ul li {
+    padding:6px 0 0 8px;
+}
+#preview-list ul li a{
+	display: block;
+    position: relative;
+}
+#preview-list  ul li a button {
+    position: absolute;
+	right: 2px;
+	top: 0px;
+}
+#preview-list img {
+    width: 80px;
+    height: 80px;
+}
+#preview-list img, #preview-list span {
+    display: block;
+}
+#preview-list span {
+    text-align: center;
+    background-color: #333;
+    color: #FFF;
+}
+#myModal {
+    z-index: 2147483647;
+}
+.modal-backdrop {
+    z-index: 2147483646;
+}
+.taobaopng, .tmallpng{
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: left;
+}
+.taobaopng {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/taobao.png');
+}
+.tmallpng {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/tmall.png');
+}
+.goodOrgPrice {
+    color: #F40;
+    font-weight: 600;
+    margin-left:10px;
+}
+.thumbnailset {
+    display: block;
+    height: 185px;
+    width: 185px;
+    overflow: hidden;
+	position: relative;
+}
+.thumbnailset button{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+.thumbnailset span {
+	display: block;
+	width: 185px;
+	bottom: -34px;
+	position: absolute;
+	background-color: #3d3d3d;
+	color: #FFF;
+	padding: 2px 8px;
+	opacity: 0.8;
+	width: 185px;
+	height: 55px;
+}
+.thumbnailset:hover span {
+	bottom: 0px;
+}
+#myModal .modal-dialog {
+    width: 900px;
+    max-width: 900px;
+    min-width: 900px;
+}
+#myModal .modal-header{
+    height:auto;
+}
+#myModal .modal-header p span{
+    font-size: 14px;
+    margin-left: 15px;
+}
+#myModal .modal-header p{
+    margin:0;
+}
+#myModal .modal-header p input, #myModal .modal-header p select {
+    width: 35px;
+    display: inline;
+    padding: 5px;
+}
+#myModal .modal-header p select{
+    width: 57px;
+}
+#myModal .modal-header p #config-time{
+    width: 270px;
+}
+#myModal .modal-header p button{
+    margin-left: 20px;
+}
+.modal-span+.modal-span{
+    margin-left:20px;
+}
+#prefix  #imageBtn {
+    position: absolute;
+    width: 82px;
+}
+#prefix .thumbnail {
+    height:311px;
+    display:overflow;
+}
+#prefix #getGoodPubInfo , #GoodPubInfo{
+    display:none;
+}
+#GoodPubInfo table{
+    width:100%;
+}
+#GoodPubInfo table, #GoodPubInfo th, #GoodPubInfo td{
+    border:1px solid #CCC;
+}
+#currDataInfo {
+    margin-top:10px;
+}
+.item .photo{
+    position: relative;
+}
+#previewCount {
+    font-size: 12px;
+    margin-left:20px;
+}
+#previewCount em{
+    color: red;
+}

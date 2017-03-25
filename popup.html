@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style/min.css">
+    <link rel="stylesheet" type="text/css" href="style/bootstrapValidator.min.css">
+    <link rel="stylesheet" type="text/css" href="style/popup.css">
+</head>
+<body>
+<div id="prefix" class="page-main">
+    <div>
+        <button type="button" class="btn btn-success" id="loginBtn">登录</button>
+        <button type="button" class="btn btn-default" id="registereBtn">注册</button>
+    </div>
+    <form class="form-horizontal" role="form" id="signup">
+        <div class="form-group">
+            <label for="userId" class="col-xs-3 control-label">用户名 *</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control input-sm" id="userId" name="userId" placeholder="用户名">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="userPwd" class="col-xs-3 control-label">密码 *</label>
+            <div class="col-xs-9">
+                <input type="password" class="form-control input-sm" id="userPwd" name="userPwd" placeholder="密码">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="userPwdAgain" class="col-xs-3 control-label">确认密码 *</label>
+            <div class="col-xs-9">
+                <input type="password" class="form-control input-sm" id="userPwdAgain" name="userPwdAgain" placeholder="确认密码">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="userName" class="col-xs-3 control-label">姓名</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control input-sm" id="userName" name="userName" placeholder="姓名">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="userPhone" class="col-xs-3 control-label">手机</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control input-sm" id="userPhone" name="userPhone" placeholder="手机">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="userEmail" class="col-xs-3 control-label">邮箱</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control input-sm" id="userEmail" name="userEmail" placeholder="邮箱">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="userQq" class="col-xs-3 control-label">QQ</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control input-sm" id="userQq" name="userQq" placeholder="QQ号码">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="" class="col-xs-3 control-label"></label>
+            <div>
+               请认真填写达人信息，如果填写不对将影响后续激活使用
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="userDarenName" class="col-xs-3 control-label">达人名称 *</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control input-sm" id="userDarenName" name="userDarenName" placeholder="达人名称">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="userWangwangNick" class="col-xs-3 control-label">旺旺名称 *</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control input-sm" id="userWangwangNick" name="userWangwangNick" placeholder="旺旺名称">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-offset-3 col-xs-9">
+                <button type="submit" id="validateButton" class="btn btn-primary">提交</button>
+            </div>
+            <p class="col-xs-offset-3 col-xs-9 message" id="signupmessage"></p>
+        </div>
+    </form>
+    <form class="form-horizontal" role="form" id="login">
+        <div class="form-group">
+            <label for="userId" class="col-xs-3 control-label">用户名</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control input-sm" id="userId" name="userId" placeholder="用户名">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="userPwd" class="col-xs-3 control-label">密码</label>
+            <div class="col-xs-9">
+                <input type="password" class="form-control input-sm" id="userPwd" name="userPwd" placeholder="密码">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-offset-3 col-xs-9">
+                <button type="submit" class="btn btn-primary">登录</button> <a href="javascript:;" id="registereLink" style="padding-left:5px;">还没有帐号，点击注册</a>
+            </div>
+            <p class="col-xs-offset-3 col-xs-9 message" id="loginmessage"></p>
+        </div>
+    </form>
+</div>
+<div class="page-content">
+    <div class="userinfo">
+        <p class="userfiled"></p>
+    </div>
+    <button type="button" class="btn btn-primary btn-xs" id="logout">退出登录</button>
+</div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrapValidator.min.js"></script>
+<script type="text/javascript" src="js/popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+{
+    "manifest_version" : 2,
+    "name" : "淘宝采集",
+    "version" : "0.1",
+    
+    "description" : "淘宝采集插件",
+    
+    "permissions" : [
+        "storage",
+        "contextMenus",
+        "cookies",
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    
+    "background" : {
+        "scripts": ["js/jquery.js", "js/eventPage.js", "js/webrequest.js"],
+        "persistent" : true
+    },
+
+    "content_scripts": [
+        {
+            "matches": [
+                "*://item.taobao.com/*",
+                "*://*.taobao.com/search.htm*",
+                "*://*.taobao.com/category.htm*",
+                "*://*.taobao.com/category-*.htm*",
+                "*://detail.tmall.com/*", 
+                "*://*.tmall.com/search.htm*",
+                "*://*.tmall.com/category.htm*",
+                "*://*.tmall.com/category-*.htm*",
+                "*://*.tmall.com/view_shop.htm*",
+                "*://*.tmall.com/search_product.htm*",
+                "*://s.taobao.com/*",
+                "*://we.taobao.com/*"
+            ],
+            "css": [
+                "style/min.css",
+                "style/button.css",
+                "style/daterangepicker.css",
+                "style/page.css",
+                "ycs/ycs.css"
+            ],
+            "js": [
+                "js/jquery.js", 
+                "js/bootstrap.min.js", 
+                "js/vue.min.js", 
+                "js/jquery-ui.min.js",
+
+                "ycs/aes.js",
+                "ycs/mode-ecb-min.js",
+
+                "js/getPageData.js",
+                "js/moment.min.js",
+                "js/daterangepicker.js",
+                "js/content.js",
+                "ycs/jquery.cookie.js",
+                "ycs/ycs.js"
+            ]
+        }
+    ],
+
+	"browser_action": {
+		"default_title": "淘宝商品采集",
+		"default_icon": "images/logo.png",
+        "default_popup": "popup.html"
+	},
+    "web_accessible_resources": [
+        "url.json",
+        "fonts/*",
+        "images/*"
+    ]
+}

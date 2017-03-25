@@ -1,0 +1,172 @@
+.private-btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2147483640;
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.private-btn:focus,
+.private-btn:active:focus,
+.private-btn.active:focus,
+.private-btn.focus,
+.private-btn:active.focus,
+.private-btn.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.private-btn:hover,
+.private-btn:focus,
+.private-btn.focus {
+  color: #333;
+  text-decoration: none;
+}
+.private-btn:active,
+.private-btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.private-btn.disabled,
+.private-btn[disabled],
+fieldset[disabled] .private-btn {
+  cursor: not-allowed;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+a.private-btn.disabled,
+fieldset[disabled] a.private-btn {
+  pointer-events: none;
+}
+.private-btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.private-btn-default:focus,
+.private-btn-default.focus {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+.private-btn-default:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.private-btn-default:active,
+.private-btn-default.active,
+.open > .dropdown-toggle.private-btn-default {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.private-btn-default:active:hover,
+.private-btn-default.active:hover,
+.open > .dropdown-toggle.private-btn-default:hover,
+.private-btn-default:active:focus,
+.private-btn-default.active:focus,
+.open > .dropdown-toggle.private-btn-default:focus,
+.private-btn-default:active.focus,
+.private-btn-default.active.focus,
+.open > .dropdown-toggle.private-btn-default.focus {
+  color: #333;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
+}
+.private-btn-default:active,
+.private-btn-default.active,
+.open > .dropdown-toggle.private-btn-default {
+  background-image: none;
+}
+.private-btn-default.disabled:hover,
+.private-btn-default[disabled]:hover,
+fieldset[disabled] .private-btn-default:hover,
+.private-btn-default.disabled:focus,
+.private-btn-default[disabled]:focus,
+fieldset[disabled] .private-btn-default:focus,
+.private-btn-default.disabled.focus,
+.private-btn-default[disabled].focus,
+fieldset[disabled] .private-btn-default.focus {
+  background-color: #fff;
+  border-color: #ccc;
+}
+.private-btn-default .badge {
+  color: #fff;
+  background-color: #333;
+}
+.private-btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.private-btn-primary:focus,
+.private-btn-primary.focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.private-btn-primary:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.private-btn-primary:active,
+.private-btn-primary.active,
+.open > .dropdown-toggle.private-btn-primary {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.private-btn-primary:active:hover,
+.private-btn-primary.active:hover,
+.open > .dropdown-toggle.private-btn-primary:hover,
+.private-btn-primary:active:focus,
+.private-btn-primary.active:focus,
+.open > .dropdown-toggle.private-btn-primary:focus,
+.private-btn-primary:active.focus,
+.private-btn-primary.active.focus,
+.open > .dropdown-toggle.private-btn-primary.focus {
+  color: #fff;
+  background-color: #204d74;
+  border-color: #122b40;
+}
+.private-btn-primary:active,
+.private-btn-primary.active,
+.open > .dropdown-toggle.private-btn-primary {
+  background-image: none;
+}
+.private-btn-primary.disabled:hover,
+.private-btn-primary[disabled]:hover,
+fieldset[disabled] .private-btn-primary:hover,
+.private-btn-primary.disabled:focus,
+.private-btn-primary[disabled]:focus,
+fieldset[disabled] .private-btn-primary:focus,
+.private-btn-primary.disabled.focus,
+.private-btn-primary[disabled].focus,
+fieldset[disabled] .private-btn-primary.focus {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.private-btn-primary .badge {
+  color: #337ab7;
+  background-color: #fff;
+}

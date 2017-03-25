@@ -1,0 +1,25 @@
+body {
+    width: 400px;
+    padding: 20px;
+    min-height: 223px;
+}
+.page-main {
+    display: none;
+}
+.page-main label {
+    text-align: right;
+    line-height: 30px;
+    padding-right: 6px;
+}
+#signup {
+    display: none;
+}
+.userinfo {
+    text-align: center;
+}
+.message {
+    color:red;
+}
+#prefix .form-group {
+    margin-bottom: 0px;
+}

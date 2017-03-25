@@ -1,0 +1,17 @@
+{
+    "userSignup"            : "http://123.57.213.217:8998/wb/user/addUserInfoV1.do",
+    "userLogin"             : "http://123.57.213.217:8998/wb/user/checkUserLoginInfoV1.do",
+    "addGoodsInfo"       : "http://123.57.213.217:8998/wb/workbench/addGoodInfoV2.do",
+    "getAllGoodsInfo"       : "http://123.57.213.217:8998/wb/workbench/getAllGoodInfoV2.do",
+    
+    
+    
+    
+    "apiUrl"                 : "http://123.57.213.217:8588/wb/workbench/",
+    "getUserIdApi"           : "http://123.57.213.217:8588/wb/workbench/getUserId.do",
+    "addGoodsInfoApi"        : "http://123.57.213.217:8588/wb/workbench/addGoodInfo.do",
+    "removeGoodsInfoApi"     : "http://123.57.213.217:8588/wb/workbench/removeGoodInfo.do",
+    "removeAllGoodsInfoApi"  : "http://123.57.213.217:8588/wb/workbench/removeAllGoodInfo.do",
+    "getAllGoodsInfoApi"     : "http://123.57.213.217:8588/wb/workbench/getAllGoodInfo.do",
+    "exportAllGoodsInfoApi"  : "http://123.57.213.217:8588/wb/workbench/exportAllGoodInfo.do"
+}
